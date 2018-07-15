@@ -5,7 +5,7 @@ class UserDetail extends Component {
 
     render() {
         if (!this.props.user){
-            return (<h2>Select a user...</h2>);
+            return (<h4>Select a user...</h4>);
         }
         return (
             <div>
